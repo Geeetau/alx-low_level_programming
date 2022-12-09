@@ -1,1 +1,1 @@
-base 16
+print
