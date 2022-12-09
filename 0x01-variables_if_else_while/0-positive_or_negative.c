@@ -4,7 +4,7 @@
 /**
  * main - assing a random number
  *
- * Return: 0 (Success)
+ * Return: 0 (Success);
  *
 */
 int main(void)
@@ -26,3 +26,4 @@ int main(void)
 		printf("%d is zero\n", n);
 	}
 	return (0)
+}
