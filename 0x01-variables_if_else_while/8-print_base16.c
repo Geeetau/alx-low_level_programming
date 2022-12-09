@@ -7,11 +7,17 @@
 int main(void)
 {
 	int num = '1';
+	int alph = 'A';
 
-	while (num <= '16')
+	while (num <= '9')
 	{
 		putchar(num);
 		num++;
+	}
+	while (alph <= 'F')
+	{
+		putchar(alph);
+		alph++;
 	}
 	putchar('\n');
 	return (0);
