@@ -7,6 +7,7 @@
 int main(void)
 {
 	int alph = 'a';
+
 	while (alph <= 'z')
 	{
 		if ((alph != 'e') && (alph != 'q'))
