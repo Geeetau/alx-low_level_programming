@@ -10,8 +10,7 @@
 int main(void)
 
 {
-	int alpha
-	alpha= 'a';
+	int alpha = 'a';
 
 	while (alpha <= 'z')
 	{
