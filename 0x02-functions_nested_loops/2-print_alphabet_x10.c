@@ -7,17 +7,20 @@
  *
 */
 
-int main(void)
+int print_alphabet_x10(void)
 
 {
-	int alpha = 'a';
+	int alpha = 'a' , count;
 
 	while (alpha <= 'z')
 	{
-	    putchar("10 ");
-	    alpha++;
+		count + 0;
+		while (count <= 9)
+	{
+		printf("alpha");
+		count++;
 	}
 	putchar("\n");
        	return (0);
-
+	}
 }
