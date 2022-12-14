@@ -1,23 +1,17 @@
-#include <stdio.h>
-/**
- * main - check the code.
- *
- * Return: Always 0.
- *
-*/
-int main(void)
-{
-	int alpha = 'a', count;
+#include "main.h"
 
-	while (alpha <= 'z')
+/**
+ * print_alphabet_x10 - prints 10 times the alphabet
+*/
+void print_alphabet_x10(void)
+{
+	int ten;
+	char alph;
+
+	for (ten = '0'; ten <= '9'; ten++)
 	{
-		count = 0;
-		while (count <= 9)
-	{
-		printf("alpha");
-		count++;
+		for (alph = 'a'; alph <= 'z'; alph++)
+			_putchar(alph);
+		_putchar('\n')
 	}
-	putchar("\n");
-	}
-	return (0);
 }
