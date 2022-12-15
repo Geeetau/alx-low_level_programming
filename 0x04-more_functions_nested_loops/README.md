@@ -1,1 +1,1 @@
-isdigit
+mul
