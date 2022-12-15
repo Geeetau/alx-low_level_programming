@@ -1,1 +1,1 @@
-mul
+print numbers
