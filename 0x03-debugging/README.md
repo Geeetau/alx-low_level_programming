@@ -1,1 +1,1 @@
-largest number
+remaining days
