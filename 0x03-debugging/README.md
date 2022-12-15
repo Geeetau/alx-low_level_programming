@@ -1,1 +1,1 @@
-multiple mains
+like,comment,subscribe
