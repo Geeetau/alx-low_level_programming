@@ -1,1 +1,1 @@
-printline
+print diagonal
