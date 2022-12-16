@@ -1,1 +1,1 @@
-print diagonal
+fizzbuzz
