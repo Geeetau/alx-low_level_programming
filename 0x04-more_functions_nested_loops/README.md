@@ -1,1 +1,1 @@
-fizzbuzz
+printtriangle
