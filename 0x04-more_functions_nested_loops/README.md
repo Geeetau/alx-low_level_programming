@@ -1,1 +1,1 @@
-printsquare
+printnumber
