@@ -1,1 +1,1 @@
-printtriangle
+printsquare
