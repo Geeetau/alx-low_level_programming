@@ -1,1 +1,1 @@
-printnumber
+prime factor
