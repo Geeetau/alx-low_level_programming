@@ -1,1 +1,1 @@
-puts
+print rev
