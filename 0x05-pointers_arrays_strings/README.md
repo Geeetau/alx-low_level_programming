@@ -1,1 +1,1 @@
-print rev
+rev string
