@@ -1,1 +1,1 @@
-rev string
+strcpy
