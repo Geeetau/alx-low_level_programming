@@ -3,17 +3,20 @@
 /**
  * print_rev - prints a string, in reverse,
  * @s: the string to be printed in rev
+ * Return: 0
  */
-
 void print_rev(char *s)
 {
-	int i = 0;
+	int longi = 0;
+	int o
 
-	while (s[i] != '\0')
-		i++;
+	while (*s != '\0')
+		s++;
+	s--;
+	for (o = longi; o > 0; o--)
 
-	for (i = i - 1; i >= 0; i--)
-		_putchar(s[i]);
+	_putchar(*s);
 
+	s--;
 	_putchar('\n');
 }
