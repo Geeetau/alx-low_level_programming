@@ -1,1 +1,1 @@
-strcpy
+puts2
