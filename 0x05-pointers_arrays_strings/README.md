@@ -1,1 +1,1 @@
-puts half
+print array
