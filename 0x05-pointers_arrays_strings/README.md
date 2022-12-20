@@ -1,1 +1,1 @@
-puts2
+puts half
