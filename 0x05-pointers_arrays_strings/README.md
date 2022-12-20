@@ -1,1 +1,1 @@
-print array
+atoi
