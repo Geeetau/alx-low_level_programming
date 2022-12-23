@@ -1,1 +1,1 @@
-strcmp
+rev_array
