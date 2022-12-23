@@ -1,1 +1,1 @@
-string toupper
+cap string
