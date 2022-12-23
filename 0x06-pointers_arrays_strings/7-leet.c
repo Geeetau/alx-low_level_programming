@@ -3,7 +3,7 @@
 /**
  * leet - encodes a string into 1337
  * @s: string
- * Return: 0
+ * Return: s value
  */
 char *leet(char *s)
 {
@@ -16,7 +16,9 @@ char *leet(char *s)
 		for (z = 0; z < 10; z++)
 		{
 			if (s[y] == a[z])
+			{
 				s[y] = b[z];
+			}
 		}
 	}
 	return (s);
