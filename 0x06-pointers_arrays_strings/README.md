@@ -1,1 +1,1 @@
-100-rot
+print number
