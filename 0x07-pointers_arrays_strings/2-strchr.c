@@ -8,7 +8,7 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s)
+	char (*s)
 	{
 	if (*s != c)
 		s++;
