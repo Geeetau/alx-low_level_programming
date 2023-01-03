@@ -8,10 +8,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	if (*s == c)
+	if (*s != c)
 		s++;
-	return (c);
-
 	else
-		return s;
+		return (s);
+	if (c == '\0')
+		retuen (s);
+
+	return (NULL);
 }
