@@ -1,1 +1,1 @@
-printchessboard
+printdiagsums
