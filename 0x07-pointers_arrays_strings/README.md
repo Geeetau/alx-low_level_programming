@@ -1,1 +1,1 @@
-memcpy
+strchr
