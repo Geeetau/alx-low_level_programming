@@ -1,1 +1,1 @@
-strpbrk
+strstr
