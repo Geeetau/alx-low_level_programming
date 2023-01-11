@@ -5,7 +5,7 @@
  * main - multiplies two numbers
  * @argc: arguments count
  * @argv: arguments
- * Return: Always 0
+ * Return: 0 if true, 1 if false
  */
 int main(int argc, char **argv)
 {
@@ -17,8 +17,8 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	j = _atoi(argv[1]);
-	k = _atoi(argv[2]);
+	j = atoi(argv[1]);
+	k = atoi(argv[2]);
 	printf("%d\n", j * k);
 
 	return (0);
