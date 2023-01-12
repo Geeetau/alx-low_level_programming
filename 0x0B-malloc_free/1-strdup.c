@@ -19,7 +19,7 @@ char *_strdup(char *str)
 		k++;
 
 	copy = (char *)malloc((sizeof(char) * k) + 1);
-	(copy = NULL)
+	(copy = NULL);
 		return (NULL);
 
 	for (j = 0; j < k; j++)
