@@ -1,1 +1,1 @@
-create array
+strduo
