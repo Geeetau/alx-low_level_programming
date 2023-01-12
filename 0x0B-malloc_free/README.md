@@ -1,1 +1,1 @@
-strduo
+concat
