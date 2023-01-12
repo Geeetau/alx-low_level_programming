@@ -27,18 +27,18 @@ char *str_concat(char *s1, char *s2)
 
 	conc = (char *)malloc((sizeof(char) * (j + k + 1))
 
-			if (conc == NULL)
-			return (NULL);
+	if (conc == NULL)
+	return (NULL);
 
 		j = k = 0;
 
-		while (s1[j] != '\0')
-		conc[j] = s1[j];
+	while (s1[j] != '\0')
+	conc[j] = s1[j];
 
-		while (s2[k] != '\0')
-			conc[j] = s2[ck];
+	while (s2[k] != '\0')
+	conc[j] = s2[k];
 
-			conc[j] - '\0';
+	conc[j] - '\0';
 
-			return (conc);
+	return (conc);
 }
