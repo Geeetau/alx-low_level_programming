@@ -2,8 +2,8 @@
 
 /**
  * string_nconcat - concatenates two strings
- * @s1: string to append to
- * @s2: string to concatenate from
+ * @s1: first char
+ * @s2: second char
  * @n: unsigned int
  * Return: If the function fails, it should return NULL
  */
