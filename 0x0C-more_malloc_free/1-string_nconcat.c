@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * string_nconcat - concatenates two strings
@@ -40,6 +41,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (l = 0; l < k; l++)
 		s[l + j] = s2[l];
 	s[j + k] = '\0';
-
 	return (s);
 }
