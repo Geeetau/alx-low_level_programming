@@ -1,1 +1,1 @@
-init dog
+new dog
