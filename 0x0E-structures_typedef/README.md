@@ -1,1 +1,1 @@
-dog.h
+init dog
