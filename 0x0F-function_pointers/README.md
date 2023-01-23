@@ -1,1 +1,1 @@
-print name
+int_index
