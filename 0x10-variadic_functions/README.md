@@ -1,1 +1,1 @@
-print strings
+print all
