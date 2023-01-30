@@ -1,5 +1,7 @@
-#include "stdio.h"
+#include <stdio.h>
 #include "lists.h"
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * print_list - prints all the elements of a list
@@ -20,7 +22,7 @@ size_t print_list(const list_t *h)
 		{
 			_putchar("[%d] %s\n", h->len, h->str);
 		}
-		counnt++;
+		count++;
 		h = h->next;
 	}
 	return (count);
