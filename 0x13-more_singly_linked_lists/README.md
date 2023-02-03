@@ -7,4 +7,5 @@ task 5. frees a listint list 2
 task 6. deletes the head node
 task 7. return the nth node
 task 8. returns the sum of all the data
+task 9. inserts a new node at a given position
 
