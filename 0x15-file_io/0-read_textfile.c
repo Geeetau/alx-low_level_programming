@@ -10,7 +10,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t o, r, w;
-	char abc;
+	char *abc;
 
 	if (filename == NULL)
 		return (0);
@@ -33,4 +33,3 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	return (w);
 }
-
