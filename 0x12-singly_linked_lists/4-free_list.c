@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 /**
  * free_list - Release memory allocated for a list
@@ -8,11 +9,13 @@
  */
 void free_list(list_t *head)
 {
-	if (head)
+	list_t *temp;
+
+	while (head)
 	{
-		free_list(head->next);
-		if (heaad->str)
-			free(head->str);
+		temp = head->next;
+		free(head->str);
 		free(head);
+		head = temp;
 	}
 }
