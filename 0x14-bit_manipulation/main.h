@@ -8,5 +8,7 @@ int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int _putchar(char c);
+unsigned long int _power(unsigned int base, unsigned int pow);
+int get_endianness(void);
 
 #endif
