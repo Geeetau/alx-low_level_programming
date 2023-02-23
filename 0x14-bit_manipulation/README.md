@@ -1,1 +1,1 @@
-task 5
+print binary
