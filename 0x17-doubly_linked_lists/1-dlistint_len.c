@@ -7,7 +7,7 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	site_t j;
+	size_t j;
 
 	for (j = 0; h != NULL; j++)
 		h = h->next;
